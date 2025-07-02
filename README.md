@@ -12,3 +12,4 @@ An example of image outputs at each processing step is detailed in Figure S3. Al
 
 
 ## Structural Simulations using abTEM
+Structural simulations were done using the Atomic Simulation Environment (ASE)8. Diffraction simulations were done using abTEM9. A monolayer of NaPHI10 was extracted via ASE, and then geometric wave modifications were applied. The resulting structures were inputted to abTEM for electron-diffraction simulations. 
