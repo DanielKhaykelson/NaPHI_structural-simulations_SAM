@@ -10,6 +10,9 @@ Meta’s Segment Anything (SAM)2 was used off-the-shelf without fine-tuning, emp
 •	Minimum linear fit R², to ensure masks correspond to well-defined linear features.
 An example of image outputs at each processing step is detailed in Figure S3. All calculations were performed on a single NVIDIA RTX4080 GPU. Two false negatives were observed during analysis: (1) overly strong blurring merged line features with central-beam noise into a single large disk-like mask, and (2) insufficient blurring caused line features to fragment into small patches, leading to missed detections during sorting. Suggestions for addressing these false negatives are included in the code but were not applied in this work, as they affect only the size—not the nature—of the line domains. 
 
+## Structural Simulations using abTEM
+Structural simulations were done using the Atomic Simulation Environment (ASE)8. Diffraction simulations were done using abTEM9. A monolayer of NaPHI10 was extracted via ASE, and then geometric wave modifications were applied. The resulting structures were inputted to abTEM for electron-diffraction simulations. 
+
 ## Citation
 
 If you use this code in your research, please cite the following paper:
@@ -20,6 +23,3 @@ If you use this code in your research, please cite the following paper:
 ### Automated Citation
 For automated citation export (RIS/BibTeX), please visit:  
 [https://pubs.acs.org/doi/10.1021/acs.nanolett.5c04946](https://pubs.acs.org/doi/10.1021/acs.nanolett.5c04946)
-
-## Structural Simulations using abTEM
-Structural simulations were done using the Atomic Simulation Environment (ASE)8. Diffraction simulations were done using abTEM9. A monolayer of NaPHI10 was extracted via ASE, and then geometric wave modifications were applied. The resulting structures were inputted to abTEM for electron-diffraction simulations. 
