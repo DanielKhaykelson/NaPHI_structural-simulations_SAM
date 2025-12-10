@@ -18,7 +18,7 @@ Structural simulations were done using the Atomic Simulation Environment (ASE)8.
 If you use this code in your research, please cite the following paper:
 
 **Elucidating Structural Disorder in a Polymeric Layered Material: The Case of Sodium Poly(heptazine imide) Photocatalyst** Daniel Khaykelson, Gabriel A. A. Diab, Sidney R. Cohen, Tamar Kashti, Tatyana Bendikov, Iddo Pinkas, Ivo F. Teixeira, Nadezda V. Tarakina, Lothar Houben, and Boris Rybtchinski.  
-*Nano Letters* **2025** DOI: [10.1021/acs.nanolett.5c04946](https://pubs.acs.org/doi/10.1021/acs.nanolett.5c04946)
+*Nano Letters* **2025, 25, 49, 17230–17236** DOI: [10.1021/acs.nanolett.5c04946](https://pubs.acs.org/doi/10.1021/acs.nanolett.5c04946)
 
 ### Automated Citation
 For automated citation export (RIS/BibTeX), please visit:  
